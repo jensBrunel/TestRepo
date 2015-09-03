@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -Werror    CMakeFiles/toDo.dir/main.cpp.o  -o toDo -rdynamic ToDoCore/libtoDoCore.so -Wl,-rpath,/work/jens/workspace/johnlampcmake/build/ToDoCore 

@@ -1,0 +1,16 @@
+﻿Build started 31.08.2015 16:48:56.
+     1>Project "C:\Users\Dukes\Documents\johnlampcmake\build\toDo.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/Dukes/Documents/johnlampcmake/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\Dukes\Documents\johnlampcmake\build\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\Dukes\Documents\johnlampcmake /Zi /nologo /W4 /WX /Od /Ob0 /Oy- /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"toDo.dir\Debug\\" /Fd"toDo.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt C:\Users\Dukes\Documents\johnlampcmake\main.cc
+         main.cc
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Dukes\Documents\johnlampcmake\build\Debug\toDo.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ToDoCore\Debug\toDoCore.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Dukes/Documents/johnlampcmake/build/Debug/toDo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Dukes/Documents/johnlampcmake/build/Debug/toDo.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug toDo.dir\Debug\main.obj
+     1>LINK : fatal error LNK1104: cannot open file 'ToDoCore\Debug\toDoCore.lib'
+     1>Done Building Project "C:\Users\Dukes\Documents\johnlampcmake\build\toDo.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.39
