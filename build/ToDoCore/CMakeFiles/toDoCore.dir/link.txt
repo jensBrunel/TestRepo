@@ -1,1 +1,0 @@
-/usr/bin/c++  -fPIC -Wall -Wextra -Werror   -shared -Wl,-soname,libtoDoCore.so -o libtoDoCore.so CMakeFiles/toDoCore.dir/ToDo.cpp.o 
