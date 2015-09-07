@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 2.8 FATAL_ERROR)
 set(CMAKE_LEGACY_CYGWIN_WIN32 0)
 
+list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake/Modules)
+
 IF (${CMAKE_MAJOR_VERSION}.${CMAKE_MINOR_VERSION} GREATER 3.0)
   cmake_policy(SET CMP0054 NEW)
 ENDIF ()
@@ -8,6 +10,7 @@ ENDIF ()
 project("To Do List")
 
 enable_testing()
+include(gmock)
 
 
 if ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU" OR
