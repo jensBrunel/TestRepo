@@ -23,14 +23,15 @@ if (NOT DEFINED     BOOST_ROOT        AND
     if (APPLE)
         set(BOOST_ROOT "../../../boost/boost_1_54_0/mac")
     elseif (WIN32)
-        set(BOOST_INCLUDEDIR "C:/local/boost_1_55_0")
-        set(BOOST_LIBRARYDIR "C:/local/boost_1_55_0/lib32-msvc-10.0")
+	    set(BOOST_ROOT "C:/local/boost_1_59_0")
+        set(BOOST_INCLUDEDIR "C:/local/boost_1_59_0/boost")
+        set(BOOST_LIBRARYDIR "C:/local/boost_1_59_0/lib64-msvc-12.0")
     endif()
 endif()
 if (APPLE OR WIN32)
     set(Boost_USE_STATIC_LIBS TRUE)
 endif()
-find_package(Boost 1.32 REQUIRED COMPONENTS program_options)
+find_package(Boost 1.59 REQUIRED COMPONENTS program_options)
 include_directories(SYSTEM ${Boost_INCLUDE_DIRS})
 
 if ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU" OR

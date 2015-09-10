@@ -1,4 +1,4 @@
-add_library(toDoCore SHARED ToDo.cpp)
+add_library(toDoCore STATIC ToDo.cpp)
 
 add_subdirectory(unit_test)
 
